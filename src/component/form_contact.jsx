@@ -20,7 +20,7 @@ function Form_contact() {
       <h1 className="uppercase font-bold text-2xl py-5">Contact Us</h1>
       <form
         onSubmit={handleSubmit(onSubmit)}
-        className=" font-medium w-[500px] flex flex-col gap-5 ">
+        className=" font-medium lg:w-[500px] w-full px-24 lg:px-0 flex flex-col gap-5 ">
         <div>
           <label htmlFor="name" className="font-medium">
             Name
